@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph-one::first-letter{
+    color: red;
+}
+
+a:hover::after{
+    content: '👰';
+}
+
+/* UNIDADES ABSOLUTAS */
+.paragraph-two{
+    font-size: 40px;
+}
+
+/* UNIDADES RELATIVAS */
+
+.paragraph-one{
+    font-size: 1rem;
+}
+
+/* 1 REM= FONT-SIZE DE LA PAGINA */
+
+/* 1 EM = TAMAÑO DE FUENTE POR DEFAULT DEL NAVEGADOR*/
